@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ProyectoInicial">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\:Carlos">
+          <Created>2024-08-19T10:53:54.7630387-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\</Server>
+          <UserName>Carlos</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Escuela</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="(local)\:sa">
+          <Created>2024-04-19T19:43:01.0198147-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="172.30.60.37:COLVATEL\kevin.ariasp">
+          <Created>2024-05-10T08:23:27.1438832-05:00</Created>
+          <Type>SQL</Type>
+          <Server>172.30.60.37</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>KevinAriasEstudio</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ALTA_Medicos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ALTA_Medicos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALTA_Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ALTA_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALTA_Turnos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ALTA_Turnos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALTER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ALTER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="aLTERsCHEMA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>aLTERsCHEMA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="castConvert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>castConvert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CodigoBackup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CodigoBackup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Comandos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Comandos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ConcatFun.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ConcatFun.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CondicionalCase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CondicionalCase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CrearBackUpDinamico.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CrearBackUpDinamico.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CrearForeignKey.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CrearForeignKey.sql</FullPath>
+        </FileNode>
+        <FileNode Name="createFunc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>createFunc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DeclaracionWhile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DeclaracionWhile.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEL_Turnos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DEL_Turnos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DROPtable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DROPtable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EjemploTablaTemporalMemoria.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EjemploTablaTemporalMemoria.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EstructuraControl.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EstructuraControl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FCN_FechaTexto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FCN_FechaTexto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FuncionesEscalares.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FuncionesEscalares.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FuncionesTabla.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FuncionesTabla.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FuncionExists.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FuncionExists.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GETdateFun.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GETdateFun.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InnerJoinEjemplo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InnerJoinEjemplo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertDePacientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InsertDePacientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="JOB_CancelaTurnosVencidos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>JOB_CancelaTurnosVencidos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LeftRighFuncion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LeftRighFuncion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LeftYRightJoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LeftYRightJoin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LENfuncion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LENfuncion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LowerUpperFuncion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LowerUpperFuncion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReplaceFun.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReplaceFun.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Replicate32.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Replicate32.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReturnBreak.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReturnBreak.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_EspecialidadesMedicas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SEL_EspecialidadesMedicas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_HistoriaClinica.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SEL_HistoriaClinica.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_HistoriaPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SEL_HistoriaPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SeleccionarSchemas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:Carlos</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>Carlos</AssociatedConnUserName>
+          <FullPath>SeleccionarSchemas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SELECT_TurnoPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SELECT_TurnoPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SentenciaAdd.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SentenciaAdd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TablaTemporaEnMemoria.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TablaTemporaEnMemoria.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TablaTemporalFIisica.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TablaTemporalFIisica.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TriggerDeleted.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TriggerDeleted.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TriggerInsert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TriggerInsert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TriggerUpdate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TriggerUpdate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TruncateEjemplo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TruncateEjemplo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRYCATCH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRYCATCH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Union.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Union.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UPD_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UPD_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VIEW_MedicoEspecialidades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VIEW_MedicoEspecialidades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Vistas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.30.60.37:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.30.60.37</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Vistas.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
